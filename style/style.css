@@ -82,6 +82,33 @@ h6{
     color: yellow;
     width: 35px;
 }
+
+/* Feature Section  */
+.feacture_section{
+    background-color: #d2d2d229;
+    padding: 40px 0;
+}
+.header_content{
+    padding: 40px 0;
+}
+.card_image{
+    width: 250px;
+    padding: 30px 60px;
+    margin: auto;
+}
+.card_content{
+    padding: 0 10px;
+}
+.feature_card{
+    border-radius: 5px;
+}
+.feature-card::hover{
+    background-color: var(--dark04);
+    transition: all 0.8s ease-in-out;
+
+}
+
+
 @media only screen and (max-width: 600px) {
     h1{
         font-size: 3rem;
